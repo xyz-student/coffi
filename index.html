@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;1,400&family=Nunito+Sans&family=Playfair+Display&family=Roboto:wght@300;400&family=Rubik+Distressed&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;1,400&family=Nunito+Sans&family=Playfair+Display&family=Roboto+Condensed:ital@1&family=Roboto:wght@300;400&family=Rubik+Distressed&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="scroll"> </div>
+
+    <!-- sm none md-block -->
+    <div class="navbar  fixed-top nav_sm  p-3 d-sm-none d-lg-flex   bg-white">
+        <a href="" class="navbar-brand mx-5">Ritika</a>
+        <ul class="nav mx-5 ms-auto">
+            <li class="nav-item nav_text"><a href="" class="nav-link text-capitalize   "> home</a></li>
+            <li class="nav-item nav_text"><a href="" class="nav-link text-capitalize   ">about</a></li>
+            <li class="nav-item nav_text"><a href="" class="nav-link text-capitalize ">contact us</a></li>
+            <li class="nav-item nav_text"><a href="" class="nav-link text-capitalize"><i
+                        class="fa-solid   fw-bold fa-magnifying-glass"></i></a></li>
+            <li class="nav-item nav_text"><a href="" class="nav-link text-capitalize"><i
+                        class="fa-solid    fw-bold fa-cart-shopping"></i></a></li>
+        </ul>
+    </div>
+
+
+    <!-- sm offcanvas start here -->
+    <div class="navbar     fixed-top p-3 d-sm-flex d-lg-none  bg-white">
+        <a href="" class="navbar-brand mx-2">Ritika</a>
+        <ul class="nav ms-auto">
+            <li class="nav-item nav_text mx-4">
+                <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">
+                    <i class="fa-solid   fs-4  fw-bold fa-cart-shopping"></i>
+                </a>
+            </li>
+            <li class="nav-item nav_text">
+                <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">
+                    <i class="fa-solid fa-bars fs-4"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+                lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- end here -->
+    <section class="position-relative main_con">
+        <div class="bg">
+            <div class="container pt-5">
+                <div class="row justify-content-center" style="height:64vh ;">
+                    <div class="col-7 col-sm-12 align-self-center sm ">
+                        <div class="bg_content">
+                            <h3 class="display-1">Ultra Coffee</h3>
+                            <p class="fs-3">The best conversations are found at the bottom of a cup of coffee</p>
+                            <img src="assets/image/part.png" class="mb-4 " height="auto" width="35%" alt=""> <br>
+                            <a href=""> <button class="text-capitalize"> explore our coffees</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="bg_content">
+            <h3 class="display-1">Ultra Coffee</h3>
+            <p class="fs-3">The best conversations are found at the bottom of a cup of coffee</p>
+            <img src="assets/image/part.png" class="mb-4 " height="auto" width="35%" alt=""> <br>
+            <a href=""> <button class="text-capitalize"> explore our coffees</button></a>
+        </div> -->
+        <!-- Contact Us -->
+        <div class="con bg-light  pt-5 pb-5  position-absolute  " style="top: 80%; left: 6% ; width: 85%;">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-4  ">
+                        <h3>Contact Us</h3>
+                        <a href="">(+416) 456 1989</a> <br>
+                        <a href="">info@coffee-skin.com</a>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3">
+                        <h3>Hours of Operation</h3>
+                        <p class="m-0 p-0">MON – FRI: 7AM – 7PM</p>
+                        <p class="m-0 p-0">SAT – SUN: 5PM – 2AM</p>
+                        <p class="m-0 p-0">Bar only open on weekends.</p>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3">
+                        <h3>Location</h3>
+                        <p class="m-0 p-0">50 Yonge Street </p>
+                        <p class="m-0 p-0">Toronto, ON MIW ZH3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome -->
+    <section class="margin_top">
+        <div class="container" style="margin-top: 150px;">
+            <div class="row">
+                <div class="col-12 col-lg-6 mt-4 text-center">
+                    <h3 class="fs-1 heading_text">Welcome</h3>
+                    <p class="fs-4">This is our story</p>
+                    <img src="assets/image/part.png" class="mb-4 " height="auto" width="35%" alt=""> <br>
+                    <p>Coffee is a brewed beverage using roasted coffee beans, the seeds of cherries from various Coffea
+                        species. The genus Coffea is native to tropical Africa, Madagascar, the Comoros, Mauritius, and
+                        Réunion in the Indian Ocean, amoung others.</p>
+                    <p>We’ve never been so excited to share with you our coffee knowledge and the story that every bean
+                        can tell. Come on in, take a sip, and explore with us!</p>
+                    <a href=""> <button class="text-capitalize"> read more</button></a>
+
+                </div>
+                <div class="col-12 col-lg-6 mt-4">
+                    <img src="./assets/image/image-coffee-590x460.jpg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Commitment -->
+    <div class="page_bg ">
+        <div class="container margin ">
+            <div class="row">
+                <div class="col-12 margin text-center">
+                    <h3 class="fs-1 heading_text  ">Our Commitment</h3>
+                    <p class="fs-4">We promise the best quality</p>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 col-lg-4 mt-3">
+                        <img src="assets/image/1.png" class="img-fluid" alt=""> <br>
+                        <b class="d-block mt-3 mb-3">Ethically Sourced Arabica Beans</b>
+                        <p>All of our arabica beans come from farms we’ve been to. We meet the team, inspect the quality
+                            of
+                            their coffee trees, and tour the facilities. We ensure our coffee growers are paid fair
+                            wages.
+                        </p>
+                    </div>
+                    <!--  -->
+                    <div class="col-12 col-lg-4 mt-3">
+                        <img src="assets/image/2.png" class="img-fluid" alt=""> <br>
+                        <b class="d-block mt-3 mb-3">Ethically Sourced Arabica Beans</b>
+                        <p>All of our arabica beans come from farms we’ve been to. We meet the team, inspect the quality
+                            of
+                            their coffee trees, and tour the facilities. We ensure our coffee growers are paid fair
+                            wages.
+                        </p>
+                    </div>
+                    <!--  -->
+                    <div class="col-12 col-lg-4 mt-3">
+                        <img src="assets/image/3.png" class="img-fluid" alt=""> <br>
+                        <b class="d-block mt-3 mb-3">Ethically Sourced Arabica Beans</b>
+                        <p>All of our arabica beans come from farms we’ve been to. We meet the team, inspect the quality
+                            of
+                            their coffee trees, and tour the facilities. We ensure our coffee growers are paid fair
+                            wages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Signature Coffee -->
+    <div class="coffee_bg margin">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-white">
+                    <div class="col-12   text-center">
+                        <h3 class="fs-1 heading_text  ">Signature Coffee</h3>
+                        <p class="fs-4">The Best Blend in the City</p>
+                        <img src="assets/image/part.png" class="mb-4 " height="auto" width="35%" alt=""> <br>
+                        <p class="mt-3">It all started with this one little roast…
+                            Roasty sweet, rich, deep, and smooth – our Signature Coffee blend became an overnight
+                            success – we couldn’t roast enough to keep up with daily demands! We’ve added 11 new roast
+                            friends to keep her company, and they’re being loved far and wide.</p>
+                        <a href=""><button class="btn_box mt-4 text-capitalize">explore all roasts</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="margin">
+        <div class="container text-center ">
+            <h3 class="fs-1 heading_text  ">Signature Coffee</h3>
+            <p class="fs-4">The Best Blend in the City</p>
+            <img src="assets/image/part.png" class="mb-4 " height="auto" width="35%" alt="">
+            <div class="row margin">
+                <div class="col-12 col-lg-3 mt-3">
+                    <img src="./assets/image/1.jpg" class="img-fluid" alt="">
+                    <p class="m-0 p-0">Duo Coffee Steeper</p>
+                    <small class="m-0 p-0">$99.00</small> <br><br>
+                    <a href="" class="m-0 p-0 text-decoration-none  "> <small class="text-uppercase add_to  ">add to
+                            cart</small> </a>
+                </div>
+                <div class="col-12 col-lg-3 mt-3">
+                    <img src="./assets/image/2.jpg" class="img-fluid" alt="">
+                    <p class="m-0 p-0">Duo Coffee Steeper</p>
+                    <small class="m-0 p-0">$99.00</small> <br><br>
+                    <a href="" class="m-0 p-0 text-decoration-none  "> <small class="text-uppercase add_to  ">add to
+                            cart</small> </a>
+                </div>
+                <div class="col-12 col-lg-3 mt-3">
+                    <img src="./assets/image/3.jpg" class="img-fluid" alt="">
+                    <p class="m-0 p-0">Duo Coffee Steeper</p>
+                    <small class="m-0 p-0">$99.00</small> <br><br>
+                    <a href="" class="m-0 p-0 text-decoration-none  "> <small class="text-uppercase add_to  ">add to
+                            cart</small> </a>
+                </div>
+                <div class="col-12 col-lg-3 mt-3">
+                    <img src="./assets/image/4.jpg" class="img-fluid" alt="">
+                    <p class="m-0 p-0">Duo Coffee Steeper</p>
+                    <small class="m-0 p-0">$99.00</small> <br><br>
+                    <a href="" class="m-0 p-0 text-decoration-none  "> <small class="text-uppercase add_to  ">add to
+                            cart</small> </a>
+                </div>
+            </div>
+            <a href=""> <button class="text-capitalize">explore our coffees</button></a>
+
+        </div>
+    </section>
+
+    <footer class="  px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 style="color: rgb(205, 150, 96);">COFFEE</h3>
+                </div>
+                <div class="col-md-3 col-12 mt-4 foot_col">
+                    <h3 class="h5">Coffee</h3>
+                    <p>We’re excited to share the story that every bean can tell. Come on in, take a sip, and explore
+                        with us!</p>
+                </div>
+                <div class="col-md-3 col-12 mt-4 foot_col">
+                    <h3 class="h5">Hours</h3>
+                    <a href="">MON – FRI: 9AM – 11PM</a> <br>
+                    <a href="">SAT – SUN: 5PM – 2AM</a> <br>
+                    <a href="">Bar open only on weekends.</a> <br>
+                </div>
+                <div class="col-md-3 col-12 mt-4 foot_col">
+                    <h3 class="h5">Contact</h3>
+                    <p>55 Adelaide St E,
+                        Toronto, ON, M5C 1K6
+                        Canada</p>
+                    <a href="">info@coffee-skin.com</a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6 col-sm-12">
+                    <span class="text-capitalize text-light">© Coffee 2023 made by &#128147; ritika </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=" assets/js/js.js"></script>
+    <script src="assets/bootstrap-5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
